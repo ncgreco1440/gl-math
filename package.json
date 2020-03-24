@@ -1,0 +1,29 @@
+{
+  "name": "gl-math",
+  "version": "0.0.1",
+  "description": "WebGL Mathematics Library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncgreco1440/gl-math.git"
+  },
+  "keywords": [],
+  "author": "Nico Greco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncgreco1440/gl-math/issues"
+  },
+  "homepage": "https://github.com/ncgreco1440/gl-math#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
