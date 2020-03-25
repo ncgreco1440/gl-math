@@ -8,8 +8,8 @@ describe('Vector2D', () => {
         expect(vec).not.toBeFalsy();
     });
 
-    test.todo('it should have an x value');
-    test.todo('it should have a y value');
+    test.todo('it should have an x component');
+    test.todo('it should have a y component');
     test.todo('it should have a magnitude (size)');
     test.todo('it should have a direction');
 
