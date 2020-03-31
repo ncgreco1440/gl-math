@@ -39,7 +39,7 @@ Here is another example...
 
 #### Subtraction
 ---
-To subtract vectors, we first take the inverse of the vector we want to subtract, then perform the same steps as we did in addition.
+To subtract vectors, we first take the inverse of the vector we want to subtract, then perform the same steps as we did with addition.
 
 Example:
 
@@ -69,7 +69,7 @@ A vector with a magnitude of 1 is known as a **Unit Vector**.
 
 #### Multiply by a Scalar
 ---
-A **Scalar** is just a magnitude. It has no direction, so it's only represented as a single number. To multiply a vector by a scalar is to "scale a vector", meaning it's magnitude is scaled. The direction of a vector does not change when scaling.
+A **Scalar** is just a magnitude. It has no direction, so it's only represented as a single number. To multiply a vector by a scalar is to "scale a vector", meaning the magnitude is scaled. The direction of a vector does not change when scaling.
 
 Example:
 
