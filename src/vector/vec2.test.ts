@@ -60,4 +60,42 @@ describe('Vector2D', () => {
     expect(vecA.y).toEqual(32);
   });
 
+  test('it should perform the dot product with another Vector2D', () => {
+    const vec1 = new Vector2D(5, 6);
+    const vec2 = new Vector2D(7, 8);
+
+    expect(vec1.dot(vec2)).toEqual(83);
+    expect(vec2.dot(vec1)).toEqual(83);
+  });
+
+  test('it understand if two vectors are not orthogonalTo each other', () => {
+    const vec1 = new Vector2D(4, 9);
+    const vec2 = new Vector2D(99, 34);
+
+    expect(vec1.orthogonalTo(vec2)).toBe(false);
+  });
+
+  test('it understand if two vectors are orthogonalTo each other', () => {
+    const vec1 = new Vector2D(4, 0);
+    const vec2 = new Vector2D(0, 34);
+
+    expect(vec1.orthogonalTo(vec2)).toBe(true);
+  });
+
+  test('it should understand how to acquire the angle between two vectors', () => {
+    const vec1 = new Vector2D(0, 6);
+    const vec2 = new Vector2D(8, 0);
+
+    expect(vec1.angleBetween(vec2)).toBeCloseTo(1.57, 2);
+  });
+
+  test('it should find the cross product between two vectors', () => {
+    const vec1 = new Vector2D(7, 6);
+    const vec2 = new Vector2D(3, 15);
+
+    const cross = vec1.cross(vec2);
+
+    expect(cross.orthogonalTo(vec1)).toEqual(true);
+  });
+
 });
